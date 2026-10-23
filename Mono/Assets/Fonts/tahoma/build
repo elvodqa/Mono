@@ -1,0 +1,1 @@
+./tools/osx/msdf-atlas-gen -font assets/fonts/tahoma/Tahoma.ttf -imageout assets/fonts/tahoma/tahoma.png -json assets/fonts/tahoma/tahoma.json -size 16

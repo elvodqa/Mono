@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="OpenTK" Version="5.0.0-pre.16" />
+      <PackageReference Include="ppy.SDL3-CS" Version="2026.623.0" />
+      <PackageReference Include="ppy.SDL3_mixer-CS" Version="2026.623.0" />
+      <PackageReference Include="StbImageSharp" Version="2.30.15" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Content Include="Assets/**/*.*" CopyToOutputDirectory="Always"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Folder Include="Tools\" />
+    </ItemGroup>
+</Project>
