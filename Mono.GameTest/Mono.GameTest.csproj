@@ -10,5 +10,9 @@
     <ItemGroup>
       <ProjectReference Include="..\Mono\Mono.csproj" />
     </ItemGroup>
+    
+    <ItemGroup>
+        <Content Include="Assets/**/*.*" CopyToOutputDirectory="PreserveNewest"/>
+    </ItemGroup>
 
 </Project>
